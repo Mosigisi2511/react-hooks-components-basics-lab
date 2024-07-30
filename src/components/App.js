@@ -8,6 +8,14 @@ function NavBar() {
   );
 }
 
+function About() {
+  return (
+    <div id="about">
+      <h1>About</h1>
+    </div>
+  );
+}
+
 function Home() {
   return (
     <div id="home">
@@ -16,15 +24,15 @@ function Home() {
   );
 }
 
-{/* write an <About> component here */}
 
 
 function App() {
   return (
     <div>
-      <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <About/>
+      <Home/>
+      <NavBar/>
+      
     </div>
   );
 }
